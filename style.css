@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+
+  text-align: center;
+}
+h2 {
+  font-size: 4rem;
+  padding: 40px;
+}
+span {
+  color: brown;
+  display: inline-flex;
+  align-items: center;
+}
+span::after {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 55px;
+  background-color: brown;
+  margin-left: 4px;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 10px 15px -3px rgba(255, 255, 255, 0.385);
+}
